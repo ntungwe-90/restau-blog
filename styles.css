@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url("img/restaurant.jpg");
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1em;
+}
+
+header img {
+  height: 30px;
+  width: 70px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 0.5em;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+}
+div {
+  color: #fff;
+}
+
+div h2 {
+  font-weight: bolder;
+}
