@@ -219,13 +219,15 @@ section {
 
 .art-container {
  gap:0.5;
-  justify-content: center;
+  justify-content:space-evenly;
   display: flex;
+ 
  
 }
 
 .image {
   flex: 0.1;
+  text-align: center;
 
 }
 
