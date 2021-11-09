@@ -287,5 +287,6 @@ section {
 
 .logos1 {
   margin-left: 60%;
-  gap: 15px;
+  justify-content: space-around;
+
 }
