@@ -205,7 +205,8 @@ section {
 .strong {
   /* text-align: center; */
   max-width: 30ch;
-  color: grey;
+  /* color: grey; */
+  
 }
 #size {
   font-size: 25px;
@@ -213,7 +214,9 @@ section {
 }
 
 .maincont {
-  padding: 2.5rem;
+  height: 32em;
+  padding: 150px;
+  
  
 }
 
@@ -286,7 +289,9 @@ section {
 }
 
 .logos1 {
-  margin-left: 60%;
-  justify-content: space-around;
+  
+   margin-left: 60%; 
+  justify-content: space-around; 
+  flex: 10;
 
 }
