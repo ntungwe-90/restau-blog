@@ -11,12 +11,23 @@ window.addEventListener('scroll', () => {
 
 
 
-$(window).scroll(function(){
-    if ($($window).scrollTop()){
-        $("header").addClass("sticky")
-    }else {
-        $('header').removeClass('stickey')
-    } 
+// $(window).scroll(function(){
+//     if ($($window).scrollTop()){
+//         $("header").addClass("sticky")
+//     }else {
+//         $('header').removeClass('stickey')
+//     } 
 
     
-})
+// })
+
+
+function myburger() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "header") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "header";
+  }
+}
+

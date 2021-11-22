@@ -370,6 +370,8 @@ footer{
     color: #00ccff;
   }
 
+
+
    section {
     background-repeat: no-repeat;
     background-position: center center;
@@ -485,9 +487,20 @@ footer{
    
   }
 
+  .container4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 4rem 15px;
+    margin-top: 50px;
+    /* margin-left: 70px; */
+  }
+  
+
   .maincont {
     height: 32em;
-    padding: 50px;
+    /* padding: 40px; */
     
    
   }
@@ -496,6 +509,7 @@ footer{
    gap:0.5;
     justify-content:space-around;
     display: flex;
+    /* margin-left: 10px; */
 
    
    
@@ -503,8 +517,8 @@ footer{
   
   .image {
     flex: 0.1;
-    text-align: center;
-  
+    /* text-align: center;
+   */
   }
   
   .amount{
@@ -521,6 +535,31 @@ footer{
 
   .imoji{
 display: block;
+  text-align: center; 
+  font-size: 15px;
+ 
+
+  }
+  .imoji p{
+    font-size: 10px;
+  }
+
+  .button2 {
+    background-color: rgb(241, 114, 28); /* Green */
+    border: none;
+    color: white;
+    width: 40vw;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  .inside{
+    margin: auto;
+    font-size: 10px;
   }
   .art-container {
     /* height: 32em; */
@@ -531,6 +570,7 @@ display: block;
    padding-right: 50px;
     color: black;
     margin-bottom: 1.5em;
+    text-align: center;
     /* padding: 57px; */
   }
   
@@ -577,6 +617,12 @@ display: block;
   }
    */
 }
+
+/* @media only screen and (max-width: 600px) {
+
+  
+
+} */
      
       /* <footer class="footer"> */
       /* <!-- <div class="footer-logo">
