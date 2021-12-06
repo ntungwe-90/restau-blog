@@ -159,19 +159,30 @@ section {
   padding: 3rem 15px;
   margin-top: 50px;
 }
-
-
-.button1 {
+#btn{
   background-color: rgb(241, 114, 28); /* Green */
-  border: none;
+   border: none;
+   color:#fff;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none; 
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 5px; 
+
+}
+
+/* .button1 {
+  background-color: rgb(241, 114, 28); /* Green */
+  /* border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 5px;
-}
+  border-radius: 5px; */
+/* } */ 
 .opinion {
   margin: auto;
 }
@@ -298,30 +309,65 @@ footer{
    display: flex;
    gap: 1.5em;
  }
-/* .footer {
-  height: 22vh;
-  background-color: rgb(23, 30, 51);
-  color: #fff;
-  display: flex;
-  padding: 45px;
-}
-.footer-logo {
-  flex: 0;
 
-  /* padding: 15px; */
-/* }
 
-.logos {
-  /* margin-left: 8px; */
-  /* padding: 8px;
-} */
+ #pop-up{
+    position: absolute;
+   left: 65%;
+   border: 5px solid white;
+   border-radius: 20px;
+   height: 400px;
+   width: 400px;
+   background-color:orange;
+   display: none;
+   margin-top: -300px;
+   transition: transform 2s;
+   box-shadow: 2px 8px 2px 8px transparent;
+   animation: fadeInAnimation ease-in 0.75s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+ }
 
-/* .logos1 {
+ #pop-up.show{
+   display: block;
+ }
+
+ #pop-up:hover{
+   transform: scale(1.5);
+ }
+
+ @keyframes fadeInAnimatiom{
+   0%{
+     opacity: 0;
+   }
+   100%{
+     opacity: 1;
+   }
+ }
+
+ .menu-items{
+position: relative;
   
-   margin-left: 60%; 
-  justify-content: space-around; 
-  flex: 10; */
+  
 
+ }
+
+ .foods{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   /* text-align: center;
+   font-size: 15px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif; */
+ }
+ .img-c{
+   height: 8rem;
+   width: 10rem;
+   padding: 10px;
+   border-radius: 30px;
+ }
 /* }  */
 /* Extra small devices (iphones, 600px and down) */
 @media only screen and (max-width: 600px) {
